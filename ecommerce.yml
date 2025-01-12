@@ -1,5 +1,5 @@
 token:
-  expiration_time: 864000 #1day token
+  expiration_time: 864000000 #1day token
   secret: a-very-long-secret-key-that-is-at-least-64-bytes-aong
 
 gateway:
