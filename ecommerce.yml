@@ -4,9 +4,9 @@ token:
 
 gateway:
   ip: 192.168.0.6
-spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: '{cipher}7ed02ca6b84295b79240466d056215aacadf004ec3f02a2822c3807e47b4894f'
+# spring:
+#   datasource:
+#     driver-class-name: org.h2.Driver
+#     url: jdbc:h2:mem:testdb
+#     username: sa #password는 1234
+#     password: '{cipher}7ed02ca6b84295b79240466d056215aacadf004ec3f02a2822c3807e47b4894f'

@@ -1,0 +1,12 @@
+token:
+  expiration_time: 864000000 #1day token
+  secret: a-very-long-secret-key-that-is-at-least-64-bytes-lbbb
+
+gateway:
+  ip: 192.168.0.6
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa #password는 1234
+    password: '{cipher}AQA0mSEzmaAIJGxX9OkqXy17O2bXgVVI383aJF/CV6IcxIBFjpNjLgvr/XJPBTjGUJXra92w4VV1rUyhJrIdFHDdEfcF6l6YWQz8JIUGVoyo9boHYTq/xYprNaoNCMw8QrgVWiMlWF3FOuvGAPIBIE27bfWsvGYy303l9f3uCjgyjR9C4TtIHhWRX388+D/5AcQUbsKb6AqKCsuHb+NfXoR1x3iQ+hcwekEVES9jMdWVE3QJqP1Zao29vwZImAjjlI/LnEizvmhZtUSxu0objy6bcHgt0VBUFiQ8NYqrsPlOZmvBW1lRs0+maiyMorZs8GTz4lfTszVFI8O6ewbU9SOrz2SLSI7xanQY/+A0G/104Faimx3wbTkQ5MhPQbjK97E='
