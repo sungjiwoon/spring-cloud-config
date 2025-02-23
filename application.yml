@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000 #1day token
-  secret: a-very-long-secret-key-that-is-at-least-64-bytes-laaa
+  secret: '{cipher}AQCCLaS3ns0CU1EQJ52Cbw3y0IXoAOd8QV7gjpLY02fFaW6j0PyERvm/Z7XVXhIWyGGSu4XPTmOxeLd5pc7YFqlrzd+pxvi1303JSRt9EAfctwQ5YFd7NTzf9L0tepOgu6YK4ZRAkH84MReeofyL1Qs/uZk2Atq7zAOD5tP7hV732OWaRwSP46WdUENveAlYadsoilI7w9X00dSdcVgzCaD7C4Wz5Ie2cO6V8IKsb2Asnuv/FyRbU5LPDKieDow6ziREgPJuEIhcKNfpo4Y8qIjRRWtPhYf8O4JJ2UWP60QRe1Mj7ifNkZaf2DIwFvQiTBco3EEFYXfvc8YhqSg4ssHVZSarAsrnXtmfMnQwC/jH9AMBvU/NyjZdBtXvixV+rqpHkxgcS5+t4Ue8O4ApGzrnL2TBlhdsDrDU2h2P4rqkwf859y884toZGx9A9iybE6c='
 
 gateway:
   ip: 192.168.0.6
